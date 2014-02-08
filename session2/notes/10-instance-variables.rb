@@ -20,10 +20,10 @@ end
 
 car = Car.new
 car.set_miles 1000
-car.get_miles # => 1000
+p car.get_miles # => 1000
 
-car.instance_variables              # => [:@miles]
-car.instance_variable_get '@miles'  # => 1000
+p car.instance_variables              # => [:@miles]
+p car.instance_variable_get '@miles'  # => 1000
 
 
 # Question: We create our car by calling Car.new
