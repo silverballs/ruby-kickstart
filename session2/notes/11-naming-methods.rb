@@ -19,3 +19,5 @@ Car.instance_methods false # => [:miles=, :miles]
 car = Car.new
 car.miles = 1000  # Ruby knows this is the miles= method
 car.miles         # => 1000
+
+p car.instance_variables '@miles'
