@@ -25,3 +25,13 @@ end
 'one line if statement'     if true       # => "one line if statement"
 'one line unless statement' unless false  # => "one line unless statement"
 
+#one line: 
+			 my_number += if true
+#multi:    
+			if true
+			my_number +=10
+			end
+
+			
+
+			
